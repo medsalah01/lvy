@@ -7,5 +7,6 @@ urlpatterns = [
     path('wait/', views.wait, name='wait'),
     path('login/', views.login, name='login'),
     path('privacy/', views.privacy, name='privacy'),
+    path('register/', views.register, name='register'),
 
 ]
